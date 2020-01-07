@@ -1,7 +1,7 @@
 from sqlalchemy import (create_engine, MetaData, Column, Table, Integer, String)
 
 
-engine = create_engine('postgres://omjtfuaf:QPHQzVOng0MbUxZWBxpoYgek7Y40GDJf@salt.db.elephantsql.com:5432/omjtfuaf', echo=False)
+engine = create_engine('postgres://****', echo=False)
 
 metadata = MetaData(bind=engine)
 
