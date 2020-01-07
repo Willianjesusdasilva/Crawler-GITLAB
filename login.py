@@ -20,7 +20,7 @@ def login_gitlab():
            'utf8': '\u2713',
            'authenticity_token': token[0],
            'user[login]': 'mamigi@fast-coin.com',
-           'user[password]': '4_})fk{g,5"fHrv,'
+           'user[password]': '*****'
            }
 
     response_login = session.post('https://gitlab.com/users/sign_in', headers=headers, data=data)
